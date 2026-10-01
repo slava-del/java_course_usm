@@ -9,6 +9,12 @@ public class MeniuInteractiv {
         int alegere;
         double total = 0;
 
+        System.out.println("1 - Zeamă de casă (24.50 lei)");
+        System.out.println("2 - Piure cu pârjoală (46.00 lei)");
+        System.out.println("3 - Salată de varză (18.00 lei)");
+        System.out.println("4 - Compot (12.00 lei)");
+        System.out.println("0 - Finalizare");
+
         do {
             alegere = sc.nextInt();
 

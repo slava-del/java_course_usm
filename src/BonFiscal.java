@@ -41,10 +41,10 @@ public class BonFiscal {
             double tva = sumaFaraTva * 0.20;
             double total = sumaFaraTva + tva;
 
-            System.out.printf("Subtotal: %.2f%n", subtotal);
-            System.out.printf("Reducere: %.2f%n", reducere);
-            System.out.printf("TVA: %.2f%n", tva);
-            System.out.printf("Total: %.2f%n", total);
+            System.out.printf("Subtotal: %.2f lei%n", subtotal);
+            System.out.printf("Reducere: %.2f lei%n", reducere);
+            System.out.printf("TVA: %.2f lei%n", tva);
+            System.out.printf("Total: %.2f lei%n", total);
         }
     }
 }

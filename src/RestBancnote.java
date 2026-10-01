@@ -32,13 +32,13 @@ public class RestBancnote {
 
         int bancnote1 = rest / 1;
 
-        System.out.println("500: " + bancnote500);
-        System.out.println("200: " + bancnote200);
-        System.out.println("100: " + bancnote100);
-        System.out.println("50: " + bancnote50);
-        System.out.println("20: " + bancnote20);
-        System.out.println("10: " + bancnote10);
-        System.out.println("5: " + bancnote5);
-        System.out.println("1: " + bancnote1);
+        System.out.println("500 lei: " + bancnote500);
+        System.out.println("200 lei: " + bancnote200);
+        System.out.println("100 lei: " + bancnote100);
+        System.out.println("50 lei: " + bancnote50);
+        System.out.println("20 lei: " + bancnote20);
+        System.out.println("10 lei: " + bancnote10);
+        System.out.println("5 lei: " + bancnote5);
+        System.out.println("1 leu: " + bancnote1);
     }
 }
