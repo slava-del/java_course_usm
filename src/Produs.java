@@ -21,6 +21,14 @@ public class Produs {
         return stoc;
     }
 
+    public double costPentru(int portii) {
+        return pret * portii;
+    }
+
+    public boolean esteDisponibil(int portii) {
+        return portii <= stoc;
+    }
+
     @Override
     public String toString() {
         return denumire + ", preț: " + pret + " lei, stoc: " + stoc;
