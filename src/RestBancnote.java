@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class RestBancnote {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int plata = sc.nextInt();
+        int achitat = sc.nextInt();
+
+        int rest = achitat - plata;
+
+        int bancnote500 = rest / 500;
+        rest = rest % 500;
+
+        int bancnote200 = rest / 200;
+        rest = rest % 200;
+
+        int bancnote100 = rest / 100;
+        rest = rest % 100;
+
+        int bancnote50 = rest / 50;
+        rest = rest % 50;
+
+        int bancnote20 = rest / 20;
+        rest = rest % 20;
+
+        int bancnote10 = rest / 10;
+        rest = rest % 10;
+
+        int bancnote5 = rest / 5;
+        rest = rest % 5;
+
+        int bancnote1 = rest / 1;
+
+        System.out.println("500: " + bancnote500);
+        System.out.println("200: " + bancnote200);
+        System.out.println("100: " + bancnote100);
+        System.out.println("50: " + bancnote50);
+        System.out.println("20: " + bancnote20);
+        System.out.println("10: " + bancnote10);
+        System.out.println("5: " + bancnote5);
+        System.out.println("1: " + bancnote1);
+    }
+}

@@ -29,6 +29,10 @@ public class Produs {
         return portii <= stoc;
     }
 
+    public String codScurt() {
+        return denumire.substring(0, 3).toUpperCase() + (int) pret;
+    }
+
     @Override
     public String toString() {
         return denumire + ", preț: " + pret + " lei, stoc: " + stoc;
